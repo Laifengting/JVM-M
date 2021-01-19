@@ -1,0 +1,250 @@
+Classfile /G:/WorkSpace/Java/IJCode/JVM-中篇/chapter01/src/com/atguigu/java1/JavapTest.class			// 字节码文件所属的路径
+  Last modified 2021年1月15日; size 1610 bytes			// 最后修改时间，字节码文件的大小。
+  MD5 checksum 3286cf41638d1183a8c41bf968a720fa			// MD5散列值
+  Compiled from "JavapTest.java"						// 源文件的名称
+public class com.atguigu.java1.JavapTest				//
+  minor version: 0										// 副版本
+  major version: 55										// 主版本
+  flags: (0x0021) ACC_PUBLIC, ACC_SUPER					// 类的访问标志
+  this_class: #11    // com/atguigu/java1/JavapTest		// 类的全限定名
+  super_class: #12   // java/lang/Object				// 父类的全限定名
+  interfaces: 0, fields: 5, methods: 7, attributes: 3	// 接口数量，字段数量，方法数量，属性数量
+Constant pool:											// 常量池
+   #1 = Methodref          #12.#42        // java/lang/Object."<init>":()V
+   #2 = String             #43            // java
+   #3 = Fieldref           #11.#44        // com/atguigu/java1/JavapTest.info:Ljava/lang/String;
+   #4 = Fieldref           #11.#45        // com/atguigu/java1/JavapTest.flag:Z
+   #5 = Fieldref           #11.#46        // com/atguigu/java1/JavapTest.num:I
+   #6 = Fieldref           #11.#47        // com/atguigu/java1/JavapTest.gender:C
+   #7 = Fieldref           #48.#49        // java/lang/System.out:Ljava/io/PrintStream;
+   #8 = InvokeDynamic      #0:#53         // #0:makeConcatWithConstants:(Ljava/lang/String;I)Ljava/lang/String;
+   #9 = Methodref          #54.#55        // java/io/PrintStream.println:(Ljava/lang/String;)V
+  #10 = String             #56            // www.atguigu.com
+  #11 = Class              #57            // com/atguigu/java1/JavapTest
+  #12 = Class              #58            // java/lang/Object
+  #13 = Utf8               num
+  #14 = Utf8               I
+  #15 = Utf8               flag
+  #16 = Utf8               Z
+  #17 = Utf8               gender
+  #18 = Utf8               C
+  #19 = Utf8               info
+  #20 = Utf8               Ljava/lang/String;
+  #21 = Utf8               COUNTS
+  #22 = Utf8               ConstantValue
+  #23 = Integer            1
+  #24 = Utf8               <init>
+  #25 = Utf8               ()V
+  #26 = Utf8               Code
+  #27 = Utf8               LineNumberTable
+  #28 = Utf8               LocalVariableTable
+  #29 = Utf8               this
+  #30 = Utf8               Lcom/atguigu/java1/JavapTest;
+  #31 = Utf8               (Z)V
+  #32 = Utf8               methodPrivate
+  #33 = Utf8               getNum
+  #34 = Utf8               (I)I
+  #35 = Utf8               i
+  #36 = Utf8               showGender
+  #37 = Utf8               ()C
+  #38 = Utf8               showInfo
+  #39 = Utf8               <clinit>
+  #40 = Utf8               SourceFile
+  #41 = Utf8               JavapTest.java
+  #42 = NameAndType        #24:#25        // "<init>":()V
+  #43 = Utf8               java
+  #44 = NameAndType        #19:#20        // info:Ljava/lang/String;
+  #45 = NameAndType        #15:#16        // flag:Z
+  #46 = NameAndType        #13:#14        // num:I
+  #47 = NameAndType        #17:#18        // gender:C
+  #48 = Class              #59            // java/lang/System
+  #49 = NameAndType        #60:#61        // out:Ljava/io/PrintStream;
+  #50 = Utf8               BootstrapMethods
+  #51 = MethodHandle       6:#62          // REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+  #52 = String             #63            // \u0001\u0001
+  #53 = NameAndType        #64:#65        // makeConcatWithConstants:(Ljava/lang/String;I)Ljava/lang/String;
+  #54 = Class              #66            // java/io/PrintStream
+  #55 = NameAndType        #67:#68        // println:(Ljava/lang/String;)V
+  #56 = Utf8               www.atguigu.com
+  #57 = Utf8               com/atguigu/java1/JavapTest
+  #58 = Utf8               java/lang/Object
+  #59 = Utf8               java/lang/System
+  #60 = Utf8               out
+  #61 = Utf8               Ljava/io/PrintStream;
+  #62 = Methodref          #69.#70        // java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+  #63 = Utf8               \u0001\u0001
+  #64 = Utf8               makeConcatWithConstants
+  #65 = Utf8               (Ljava/lang/String;I)Ljava/lang/String;
+  #66 = Utf8               java/io/PrintStream
+  #67 = Utf8               println
+  #68 = Utf8               (Ljava/lang/String;)V
+  #69 = Class              #71            // java/lang/invoke/StringConcatFactory
+  #70 = NameAndType        #64:#75        // makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+  #71 = Utf8               java/lang/invoke/StringConcatFactory
+  #72 = Class              #77            // java/lang/invoke/MethodHandles$Lookup
+  #73 = Utf8               Lookup
+  #74 = Utf8               InnerClasses
+  #75 = Utf8               (Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+  #76 = Class              #78            // java/lang/invoke/MethodHandles
+  #77 = Utf8               java/lang/invoke/MethodHandles$Lookup
+  #78 = Utf8               java/lang/invoke/MethodHandles
+{											// 字段表起始↓↓↓↓↓↓↓↓
+  private int num;							// 字段名
+    descriptor: I							// 子段描述符（字段的类型）
+    flags: (0x0002) ACC_PRIVATE				// 字段访问标志
+
+  boolean flag;
+    descriptor: Z
+    flags: (0x0000)
+
+  protected char gender;
+    descriptor: C
+    flags: (0x0004) ACC_PROTECTED
+
+  public java.lang.String info;
+    descriptor: Ljava/lang/String;
+    flags: (0x0001) ACC_PUBLIC
+
+  public static final int COUNTS;
+    descriptor: I
+    flags: (0x0019) ACC_PUBLIC, ACC_STATIC, ACC_FINAL
+    ConstantValue: int 1					// 常量字段的属性：ConstantValue。
+											// 字段表终止↑↑↑↑↑↑↑↑
+
+											// 方法表起始↓↓↓↓↓↓↓↓
+  public com.atguigu.java1.JavapTest();		// 构造器1的信息
+    descriptor: ()V
+    flags: (0x0001) ACC_PUBLIC
+    Code:
+      stack=2, locals=1, args_size=1
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: ldc           #2                  // String java
+         7: putfield      #3                  // Field info:Ljava/lang/String;
+        10: return
+      LineNumberTable:
+        line 20: 0
+        line 18: 4
+        line 22: 10
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      11     0  this   Lcom/atguigu/java1/JavapTest;
+
+  private com.atguigu.java1.JavapTest(boolean);		// 构造器2的信息
+    descriptor: (Z)V
+    flags: (0x0002) ACC_PRIVATE
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: invokespecial #1                  // Method java/lang/Object."<init>":()V
+         4: aload_0
+         5: ldc           #2                  // String java
+         7: putfield      #3                  // Field info:Ljava/lang/String;
+        10: aload_0
+        11: iload_1
+        12: putfield      #4                  // Field flag:Z
+        15: return
+      LineNumberTable:
+        line 23: 0
+        line 18: 4
+        line 24: 10
+        line 25: 15
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      16     0  this   Lcom/atguigu/java1/JavapTest;
+            0      16     1  flag   Z
+
+  private void methodPrivate();
+    descriptor: ()V
+    flags: (0x0002) ACC_PRIVATE
+    Code:
+      stack=0, locals=1, args_size=1
+         0: return
+      LineNumberTable:
+        line 28: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       1     0  this   Lcom/atguigu/java1/JavapTest;
+
+  int getNum(int);
+    descriptor: (I)I
+    flags: (0x0000)
+    Code:
+      stack=2, locals=2, args_size=2
+         0: aload_0
+         1: getfield      #5                  // Field num:I
+         4: iload_1
+         5: iadd
+         6: ireturn
+      LineNumberTable:
+        line 30: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       7     0  this   Lcom/atguigu/java1/JavapTest;
+            0       7     1     i   I
+
+  protected char showGender();
+    descriptor: ()C
+    flags: (0x0004) ACC_PROTECTED
+    Code:
+      stack=1, locals=1, args_size=1
+         0: aload_0
+         1: getfield      #6                  // Field gender:C
+         4: ireturn
+      LineNumberTable:
+        line 33: 0
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0       5     0  this   Lcom/atguigu/java1/JavapTest;
+
+  public void showInfo();
+    descriptor: ()V							// 方法的描述符：方法的形参列表，返回值类型
+    flags: (0x0001) ACC_PUBLIC				// 方法的访问标志
+    Code:									// 方法的Code属性
+      stack=3, locals=2, args_size=1		// 操作数栈的最大深度，局部变量表的长度，方法接收参数的个数。
+	// 偏移量：操作码	操作数
+         0: bipush        10
+         2: istore_1
+         3: getstatic     #7                  // Field java/lang/System.out:Ljava/io/PrintStream;
+         6: aload_0
+         7: getfield      #3                  // Field info:Ljava/lang/String;
+        10: iload_1
+        11: invokedynamic #8,  0              // InvokeDynamic #0:makeConcatWithConstants:(Ljava/lang/String;I)Ljava/lang/String;
+        16: invokevirtual #9                  // Method java/io/PrintStream.println:(Ljava/lang/String;)V
+        19: return
+
+	// 行号表：指名字节码指令的偏移量与Java源程序中代码的行号的一一对应关系。
+      LineNumberTable:
+        line 36: 0
+        line 37: 3
+        line 38: 19
+	// 局部变量表：描述内部局部变量的相关信息。
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+            0      20     0  this   Lcom/atguigu/java1/JavapTest;
+            3      17     1     i   I
+											// 字段表终止↑↑↑↑↑↑↑↑
+
+  static {};
+    descriptor: ()V
+    flags: (0x0008) ACC_STATIC
+    Code:
+      stack=1, locals=1, args_size=0
+         0: ldc           #10                 // String www.atguigu.com
+         2: astore_0
+         3: return
+      LineNumberTable:
+        line 15: 0
+        line 16: 3
+      LocalVariableTable:
+        Start  Length  Slot  Name   Signature
+}
+// 附加属性
+SourceFile: "JavapTest.java"
+InnerClasses:
+  public static final #73= #72 of #76;    // Lookup=class java/lang/invoke/MethodHandles$Lookup of class java/lang/invoke/MethodHandles
+BootstrapMethods:
+  0: #51 REF_invokeStatic java/lang/invoke/StringConcatFactory.makeConcatWithConstants:(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite;
+    Method arguments:
+      #52 \u0001\u0001

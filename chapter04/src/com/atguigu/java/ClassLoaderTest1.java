@@ -16,10 +16,9 @@ public class ClassLoaderTest1 {
         ClassLoader bootstrapClassLoader = extClassLoader.getParent();
         System.out.println(bootstrapClassLoader);//null
 
-        //###########################
         try {
             ClassLoader classLoader = Class.forName("java.lang.String").getClassLoader();
-            System.out.println(classLoader);
+			System.out.println(classLoader);
             //自定义的类默认使用系统类加载器
             ClassLoader classLoader1 = Class.forName("com.atguigu.java.ClassLoaderTest1").getClassLoader();
             System.out.println(classLoader1);
