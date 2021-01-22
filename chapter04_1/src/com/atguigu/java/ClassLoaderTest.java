@@ -9,7 +9,6 @@ public class ClassLoaderTest {
         System.out.println(ClassLoaderTest.class.getClassLoader());
         System.out.println(ClassLoaderTest.class.getClassLoader().getParent());
         System.out.println(ClassLoaderTest.class.getClassLoader().getParent().getParent());
-
         //获取系统类加载器
         System.out.println(ClassLoader.getSystemClassLoader());
         //获取平台类加载器
